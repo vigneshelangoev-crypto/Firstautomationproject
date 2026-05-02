@@ -1,0 +1,5 @@
+# Created at 2026-04-06T14:22:43.612
+Boot Manifest-JAR contains absolute paths in classpath 'E:\VS Code projects\Framework\firstautomationframework\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

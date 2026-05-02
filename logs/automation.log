@@ -1,0 +1,11 @@
+23:06:37:867 [main] INFO  testCases.TC001_accountRegistration - ****Starting TC001_AccountReg****
+23:06:38:180 [main] INFO  testCases.TC001_accountRegistration - ****In to Register page****
+23:06:39:265 [main] INFO  testCases.TC001_accountRegistration - ****Finished TC001_AccountReg****
+23:09:56:226 [main] INFO  testCases.TC001_accountRegistration - ****Starting TC001_AccountReg****
+23:09:56:583 [main] INFO  testCases.TC001_accountRegistration - ****In to Register page****
+23:09:57:708 [main] INFO  testCases.TC001_accountRegistration - ****Finished TC001_AccountReg****
+23:09:57:730 [main] ERROR testCases.TC001_accountRegistration - Test Failed
+23:09:57:730 [main] DEBUG testCases.TC001_accountRegistration - Debug log
+23:24:40:856 [main] INFO  testCases.TC001_accountRegistration - ****Starting TC001_AccountReg****
+23:24:41:182 [main] INFO  testCases.TC001_accountRegistration - ****In to Register page****
+23:24:42:375 [main] INFO  testCases.TC001_accountRegistration - ****Finished TC001_AccountReg****
