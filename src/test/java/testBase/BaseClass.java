@@ -34,7 +34,7 @@ public class BaseClass {
     public static WebDriver driver;
     public Logger logger;
     public Properties p;
-    public DesiredCapabilities cap;
+    
 
     @BeforeClass(alwaysRun = true)
     @Parameters({"browser","headless"})
@@ -49,11 +49,31 @@ public class BaseClass {
         if(p.getProperty("execution_evn").equalsIgnoreCase("remote"))
         {
         String huburl="http://13.51.220.79:4444/wd/hub";
-        cap= new DesiredCapabilities();
-        cap.setPlatform(Platform.LINUX);
-        // browser
-        cap.setBrowserName(br.toLowerCase());
-        driver= new RemoteWebDriver(new URL(huburl),cap);
+        switch(br.toLowerCase())
+        {
+        case "chrome": 
+        ChromeOptions cOptions=new ChromeOptions();
+        if (isHeadless)
+        {
+            cOptions.addArguments("--headless=new");
+        }
+        cOptions.addArguments("--no-sandbox");
+        cOptions.addArguments("--disable-dev-shm-usage");
+        driver = new RemoteWebDriver(new URL(huburl), cOptions); break;
+        case "edge": EdgeOptions eOptions= new EdgeOptions();
+        if (isHeadless)
+            {
+                eOptions.addArguments("--headless=new");
+            } 
+        driver = new RemoteWebDriver(new URL(huburl), eOptions); break;
+        case  "firefox": FirefoxOptions fOptions=new FirefoxOptions();
+        if (isHeadless)
+        {
+            fOptions.addArguments("--headless=new");
+        }
+        driver = new RemoteWebDriver(new URL(huburl), fOptions); break;
+        default : System.out.println("Invalid Browser"); return;
+        }
         }
 
         if(p.getProperty("execution_evn").equalsIgnoreCase("local"))
