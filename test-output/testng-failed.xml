@@ -17,13 +17,20 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.TC001_accountRegistration">
+      <class name="testCases.TC002_loginTest">
         <methods>
-          <include name="verify_account_registration"/>
           <include name="tearDown"/>
+          <include name="verifyLogin" invocation-numbers="3 4"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC001_accountRegistration -->
+      </class> <!-- testCases.TC002_loginTest -->
+      <class name="testCases.TC005_addToCarttest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="TC005_addToCarttest"/>
+        </methods>
+      </class> <!-- testCases.TC005_addToCarttest -->
     </classes>
   </test> <!-- TestCases1(failed) -->
 </suite> <!-- Failed suite [AutomationSuite] -->

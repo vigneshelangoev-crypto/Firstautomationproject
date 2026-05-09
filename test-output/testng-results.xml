@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+<testng-results ignored="0" total="13" passed="10" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-06T14:30:52 IST" name="AutomationSuite" finished-at="2026-04-06T14:32:02 IST" duration-ms="69610">
+  <suite started-at="2026-05-09T19:16:57 IST" name="AutomationSuite" finished-at="2026-05-09T19:26:03 IST" duration-ms="546525">
     <groups>
       <group name="Master">
-        <method signature="TC001_accountRegistration.verify_account_registration()[pri:0, instance:testCases.TC001_accountRegistration@5a63f509]" name="verify_account_registration" class="testCases.TC001_accountRegistration"/>
-        <method signature="TC002_loginTest.verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_loginTest@2e4b8173]" name="verifyLogin" class="testCases.TC002_loginTest"/>
-        <method signature="TC003_srpcheck.TC003_srpcheck()[pri:0, instance:testCases.TC003_srpcheck@6e4784bc]" name="TC003_srpcheck" class="testCases.TC003_srpcheck"/>
-        <method signature="TC004_DPPagecheck.TC004_DPPagecheck()[pri:0, instance:testCases.TC004_DPPagecheck@34b7ac2f]" name="TC004_DPPagecheck" class="testCases.TC004_DPPagecheck"/>
-        <method signature="TC005_addToCarttest.TC005_addToCarttest()[pri:0, instance:testCases.TC005_addToCarttest@e056f20]" name="TC005_addToCarttest" class="testCases.TC005_addToCarttest"/>
-        <method signature="TC006_currencycheck.TC006_currencycheck()[pri:0, instance:testCases.TC006_currencycheck@4b0b0854]" name="TC006_currencycheck" class="testCases.TC006_currencycheck"/>
-        <method signature="TC007_checkStrikeThrough.checkStrikeThrough()[pri:0, instance:testCases.TC007_checkStrikeThrough@19bb07ed]" name="checkStrikeThrough" class="testCases.TC007_checkStrikeThrough"/>
-        <method signature="TC008_hoverAndClickTC.TC008_hoverAndClickTC()[pri:0, instance:testCases.TC008_hoverAndClickTC@10e41621]" name="TC008_hoverAndClickTC" class="testCases.TC008_hoverAndClickTC"/>
-        <method signature="TC009_sortSRP.TC009_sortSRP()[pri:0, instance:testCases.TC009_sortSRP@353d0772]" name="TC009_sortSRP" class="testCases.TC009_sortSRP"/>
+        <method signature="TC001_accountRegistration.verify_account_registration()[pri:0, instance:testCases.TC001_accountRegistration@34b7ac2f]" name="verify_account_registration" class="testCases.TC001_accountRegistration"/>
+        <method signature="TC002_loginTest.verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_loginTest@17046283]" name="verifyLogin" class="testCases.TC002_loginTest"/>
+        <method signature="TC003_srpcheck.TC003_srpcheck()[pri:0, instance:testCases.TC003_srpcheck@e056f20]" name="TC003_srpcheck" class="testCases.TC003_srpcheck"/>
+        <method signature="TC004_DPPagecheck.TC004_DPPagecheck()[pri:0, instance:testCases.TC004_DPPagecheck@4b0b0854]" name="TC004_DPPagecheck" class="testCases.TC004_DPPagecheck"/>
+        <method signature="TC005_addToCarttest.TC005_addToCarttest()[pri:0, instance:testCases.TC005_addToCarttest@19bb07ed]" name="TC005_addToCarttest" class="testCases.TC005_addToCarttest"/>
+        <method signature="TC006_currencycheck.TC006_currencycheck()[pri:0, instance:testCases.TC006_currencycheck@10e41621]" name="TC006_currencycheck" class="testCases.TC006_currencycheck"/>
+        <method signature="TC007_checkStrikeThrough.checkStrikeThrough()[pri:0, instance:testCases.TC007_checkStrikeThrough@353d0772]" name="checkStrikeThrough" class="testCases.TC007_checkStrikeThrough"/>
+        <method signature="TC008_hoverAndClickTC.TC008_hoverAndClickTC()[pri:0, instance:testCases.TC008_hoverAndClickTC@2667f029]" name="TC008_hoverAndClickTC" class="testCases.TC008_hoverAndClickTC"/>
+        <method signature="TC009_sortSRP.TC009_sortSRP()[pri:0, instance:testCases.TC009_sortSRP@67a20f67]" name="TC009_sortSRP" class="testCases.TC009_sortSRP"/>
       </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="TC001_accountRegistration.verify_account_registration()[pri:0, instance:testCases.TC001_accountRegistration@5a63f509]" name="verify_account_registration" class="testCases.TC001_accountRegistration"/>
-        <method signature="TC002_loginTest.verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_loginTest@2e4b8173]" name="verifyLogin" class="testCases.TC002_loginTest"/>
-        <method signature="TC003_srpcheck.TC003_srpcheck()[pri:0, instance:testCases.TC003_srpcheck@6e4784bc]" name="TC003_srpcheck" class="testCases.TC003_srpcheck"/>
-        <method signature="TC006_currencycheck.TC006_currencycheck()[pri:0, instance:testCases.TC006_currencycheck@4b0b0854]" name="TC006_currencycheck" class="testCases.TC006_currencycheck"/>
-        <method signature="TC007_checkStrikeThrough.checkStrikeThrough()[pri:0, instance:testCases.TC007_checkStrikeThrough@19bb07ed]" name="checkStrikeThrough" class="testCases.TC007_checkStrikeThrough"/>
-        <method signature="TC008_hoverAndClickTC.TC008_hoverAndClickTC()[pri:0, instance:testCases.TC008_hoverAndClickTC@10e41621]" name="TC008_hoverAndClickTC" class="testCases.TC008_hoverAndClickTC"/>
-        <method signature="TC009_sortSRP.TC009_sortSRP()[pri:0, instance:testCases.TC009_sortSRP@353d0772]" name="TC009_sortSRP" class="testCases.TC009_sortSRP"/>
+        <method signature="TC001_accountRegistration.verify_account_registration()[pri:0, instance:testCases.TC001_accountRegistration@34b7ac2f]" name="verify_account_registration" class="testCases.TC001_accountRegistration"/>
+        <method signature="TC002_loginTest.verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_loginTest@17046283]" name="verifyLogin" class="testCases.TC002_loginTest"/>
+        <method signature="TC003_srpcheck.TC003_srpcheck()[pri:0, instance:testCases.TC003_srpcheck@e056f20]" name="TC003_srpcheck" class="testCases.TC003_srpcheck"/>
+        <method signature="TC006_currencycheck.TC006_currencycheck()[pri:0, instance:testCases.TC006_currencycheck@10e41621]" name="TC006_currencycheck" class="testCases.TC006_currencycheck"/>
+        <method signature="TC007_checkStrikeThrough.checkStrikeThrough()[pri:0, instance:testCases.TC007_checkStrikeThrough@353d0772]" name="checkStrikeThrough" class="testCases.TC007_checkStrikeThrough"/>
+        <method signature="TC008_hoverAndClickTC.TC008_hoverAndClickTC()[pri:0, instance:testCases.TC008_hoverAndClickTC@2667f029]" name="TC008_hoverAndClickTC" class="testCases.TC008_hoverAndClickTC"/>
+        <method signature="TC009_sortSRP.TC009_sortSRP()[pri:0, instance:testCases.TC009_sortSRP@67a20f67]" name="TC009_sortSRP" class="testCases.TC009_sortSRP"/>
       </group> <!-- Sanity -->
       <group name="regression">
-        <method signature="TC005_addToCarttest.TC005_addToCarttest()[pri:0, instance:testCases.TC005_addToCarttest@e056f20]" name="TC005_addToCarttest" class="testCases.TC005_addToCarttest"/>
-        <method signature="TC007_checkStrikeThrough.checkStrikeThrough()[pri:0, instance:testCases.TC007_checkStrikeThrough@19bb07ed]" name="checkStrikeThrough" class="testCases.TC007_checkStrikeThrough"/>
-        <method signature="TC008_hoverAndClickTC.TC008_hoverAndClickTC()[pri:0, instance:testCases.TC008_hoverAndClickTC@10e41621]" name="TC008_hoverAndClickTC" class="testCases.TC008_hoverAndClickTC"/>
+        <method signature="TC005_addToCarttest.TC005_addToCarttest()[pri:0, instance:testCases.TC005_addToCarttest@19bb07ed]" name="TC005_addToCarttest" class="testCases.TC005_addToCarttest"/>
+        <method signature="TC007_checkStrikeThrough.checkStrikeThrough()[pri:0, instance:testCases.TC007_checkStrikeThrough@353d0772]" name="checkStrikeThrough" class="testCases.TC007_checkStrikeThrough"/>
+        <method signature="TC008_hoverAndClickTC.TC008_hoverAndClickTC()[pri:0, instance:testCases.TC008_hoverAndClickTC@2667f029]" name="TC008_hoverAndClickTC" class="testCases.TC008_hoverAndClickTC"/>
       </group> <!-- regression -->
     </groups>
-    <test started-at="2026-04-06T14:30:52 IST" name="TestCases1" finished-at="2026-04-06T14:32:02 IST" duration-ms="69610">
+    <test started-at="2026-05-09T19:16:57 IST" name="TestCases1" finished-at="2026-05-09T19:26:03 IST" duration-ms="546525">
       <class name="testCases.TC006_currencycheck">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC006_currencycheck@4b0b0854]" started-at="2026-04-06T14:31:49 IST" name="setup" finished-at="2026-04-06T14:31:50 IST" duration-ms="1297" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC006_currencycheck@10e41621]" started-at="2026-05-09T19:25:26 IST" name="setup" finished-at="2026-05-09T19:25:32 IST" duration-ms="6059" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,17 +48,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC006_currencycheck()[pri:0, instance:testCases.TC006_currencycheck@4b0b0854]" started-at="2026-04-06T14:31:50 IST" name="TC006_currencycheck" finished-at="2026-04-06T14:31:54 IST" duration-ms="3787" status="PASS">
+        <test-method signature="TC006_currencycheck()[pri:0, instance:testCases.TC006_currencycheck@10e41621]" started-at="2026-05-09T19:25:32 IST" name="TC006_currencycheck" finished-at="2026-05-09T19:25:38 IST" duration-ms="6404" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC006_currencycheck -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC006_currencycheck@4b0b0854]" started-at="2026-04-06T14:31:54 IST" name="tearDown" finished-at="2026-04-06T14:31:54 IST" duration-ms="107" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC006_currencycheck@10e41621]" started-at="2026-05-09T19:25:38 IST" name="tearDown" finished-at="2026-05-09T19:25:38 IST" duration-ms="253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC006_currencycheck -->
       <class name="testCases.TC008_hoverAndClickTC">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC008_hoverAndClickTC@10e41621]" started-at="2026-04-06T14:31:56 IST" name="setup" finished-at="2026-04-06T14:31:58 IST" duration-ms="1760" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC008_hoverAndClickTC@2667f029]" started-at="2026-05-09T19:25:45 IST" name="setup" finished-at="2026-05-09T19:25:50 IST" duration-ms="4884" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -74,17 +74,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC008_hoverAndClickTC()[pri:0, instance:testCases.TC008_hoverAndClickTC@10e41621]" started-at="2026-04-06T14:31:58 IST" name="TC008_hoverAndClickTC" finished-at="2026-04-06T14:31:58 IST" duration-ms="669" status="PASS">
+        <test-method signature="TC008_hoverAndClickTC()[pri:0, instance:testCases.TC008_hoverAndClickTC@2667f029]" started-at="2026-05-09T19:25:50 IST" name="TC008_hoverAndClickTC" finished-at="2026-05-09T19:25:52 IST" duration-ms="2021" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC008_hoverAndClickTC -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC008_hoverAndClickTC@10e41621]" started-at="2026-04-06T14:31:58 IST" name="tearDown" finished-at="2026-04-06T14:31:58 IST" duration-ms="103" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC008_hoverAndClickTC@2667f029]" started-at="2026-05-09T19:25:52 IST" name="tearDown" finished-at="2026-05-09T19:25:53 IST" duration-ms="246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC008_hoverAndClickTC -->
       <class name="testCases.TC003_srpcheck">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_srpcheck@6e4784bc]" started-at="2026-04-06T14:31:41 IST" name="setup" finished-at="2026-04-06T14:31:42 IST" duration-ms="1888" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_srpcheck@e056f20]" started-at="2026-05-09T19:21:31 IST" name="setup" finished-at="2026-05-09T19:21:35 IST" duration-ms="4615" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -100,17 +100,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC003_srpcheck()[pri:0, instance:testCases.TC003_srpcheck@6e4784bc]" started-at="2026-04-06T14:31:42 IST" name="TC003_srpcheck" finished-at="2026-04-06T14:31:43 IST" duration-ms="610" status="PASS">
+        <test-method signature="TC003_srpcheck()[pri:0, instance:testCases.TC003_srpcheck@e056f20]" started-at="2026-05-09T19:21:35 IST" name="TC003_srpcheck" finished-at="2026-05-09T19:21:37 IST" duration-ms="1937" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC003_srpcheck -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_srpcheck@6e4784bc]" started-at="2026-04-06T14:31:43 IST" name="tearDown" finished-at="2026-04-06T14:31:43 IST" duration-ms="93" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_srpcheck@e056f20]" started-at="2026-05-09T19:21:37 IST" name="tearDown" finished-at="2026-05-09T19:21:37 IST" duration-ms="253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC003_srpcheck -->
       <class name="testCases.TC002_loginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_loginTest@2e4b8173]" started-at="2026-04-06T14:30:52 IST" name="setup" finished-at="2026-04-06T14:30:54 IST" duration-ms="1866" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_loginTest@17046283]" started-at="2026-05-09T19:16:57 IST" name="setup" finished-at="2026-05-09T19:17:02 IST" duration-ms="5485" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -126,7 +126,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_loginTest@2e4b8173]" started-at="2026-04-06T14:30:55 IST" name="verifyLogin" data-provider="LoginData" finished-at="2026-04-06T14:31:07 IST" duration-ms="12824" status="PASS">
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_loginTest@17046283]" started-at="2026-05-09T19:17:03 IST" name="verifyLogin" data-provider="LoginData" finished-at="2026-05-09T19:17:19 IST" duration-ms="15576" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -147,7 +147,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_loginTest@2e4b8173]" started-at="2026-04-06T14:31:07 IST" name="verifyLogin" data-provider="LoginData" finished-at="2026-04-06T14:31:19 IST" duration-ms="12014" status="PASS">
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_loginTest@17046283]" started-at="2026-05-09T19:17:19 IST" name="verifyLogin" data-provider="LoginData" finished-at="2026-05-09T19:17:34 IST" duration-ms="15364" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -168,7 +168,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_loginTest@2e4b8173]" started-at="2026-04-06T14:31:19 IST" name="verifyLogin" data-provider="LoginData" finished-at="2026-04-06T14:31:22 IST" duration-ms="2901" status="PASS">
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_loginTest@17046283]" started-at="2026-05-09T19:17:34 IST" name="verifyLogin" data-provider="LoginData" finished-at="2026-05-09T19:17:41 IST" duration-ms="7348" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -189,7 +189,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_loginTest@2e4b8173]" started-at="2026-04-06T14:31:22 IST" name="verifyLogin" data-provider="LoginData" finished-at="2026-04-06T14:31:34 IST" duration-ms="12059" status="PASS">
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_loginTest@17046283]" started-at="2026-05-09T19:17:41 IST" name="verifyLogin" data-provider="LoginData" finished-at="2026-05-09T19:20:45 IST" duration-ms="183306" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -207,10 +207,52 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at testCases.TC002_loginTest.verifyLogin(TC002_loginTest.java:69)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_loginTest@2e4b8173]" started-at="2026-04-06T14:31:34 IST" name="verifyLogin" data-provider="LoginData" finished-at="2026-04-06T14:31:37 IST" duration-ms="2595" status="PASS">
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_loginTest@17046283]" started-at="2026-05-09T19:21:16 IST" name="verifyLogin" data-provider="LoginData" finished-at="2026-05-09T19:21:17 IST" duration-ms="1187" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -228,16 +270,58 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at testCases.TC002_loginTest.verifyLogin(TC002_loginTest.java:69)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_loginTest@2e4b8173]" started-at="2026-04-06T14:31:37 IST" name="tearDown" finished-at="2026-04-06T14:31:37 IST" duration-ms="134" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_loginTest@17046283]" started-at="2026-05-09T19:21:17 IST" name="tearDown" finished-at="2026-05-09T19:21:17 IST" duration-ms="260" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC002_loginTest -->
       <class name="testCases.TC001_accountRegistration">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_accountRegistration@5a63f509]" started-at="2026-04-06T14:31:37 IST" name="setup" finished-at="2026-04-06T14:31:38 IST" duration-ms="1222" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_accountRegistration@34b7ac2f]" started-at="2026-05-09T19:21:17 IST" name="setup" finished-at="2026-05-09T19:21:22 IST" duration-ms="4993" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -253,17 +337,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_accountRegistration@5a63f509]" started-at="2026-04-06T14:31:38 IST" name="verify_account_registration" finished-at="2026-04-06T14:31:40 IST" duration-ms="2031" status="PASS">
+        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_accountRegistration@34b7ac2f]" started-at="2026-05-09T19:21:22 IST" name="verify_account_registration" finished-at="2026-05-09T19:21:30 IST" duration-ms="8097" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_account_registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_accountRegistration@5a63f509]" started-at="2026-04-06T14:31:40 IST" name="tearDown" finished-at="2026-04-06T14:31:41 IST" duration-ms="209" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_accountRegistration@34b7ac2f]" started-at="2026-05-09T19:21:30 IST" name="tearDown" finished-at="2026-05-09T19:21:31 IST" duration-ms="252" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC001_accountRegistration -->
       <class name="testCases.TC007_checkStrikeThrough">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC007_checkStrikeThrough@19bb07ed]" started-at="2026-04-06T14:31:54 IST" name="setup" finished-at="2026-04-06T14:31:56 IST" duration-ms="1126" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC007_checkStrikeThrough@353d0772]" started-at="2026-05-09T19:25:38 IST" name="setup" finished-at="2026-05-09T19:25:43 IST" duration-ms="4705" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -279,17 +363,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkStrikeThrough()[pri:0, instance:testCases.TC007_checkStrikeThrough@19bb07ed]" started-at="2026-04-06T14:31:56 IST" name="checkStrikeThrough" finished-at="2026-04-06T14:31:56 IST" duration-ms="333" status="PASS">
+        <test-method signature="checkStrikeThrough()[pri:0, instance:testCases.TC007_checkStrikeThrough@353d0772]" started-at="2026-05-09T19:25:43 IST" name="checkStrikeThrough" finished-at="2026-05-09T19:25:45 IST" duration-ms="2082" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStrikeThrough -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC007_checkStrikeThrough@19bb07ed]" started-at="2026-04-06T14:31:56 IST" name="tearDown" finished-at="2026-04-06T14:31:56 IST" duration-ms="90" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC007_checkStrikeThrough@353d0772]" started-at="2026-05-09T19:25:45 IST" name="tearDown" finished-at="2026-05-09T19:25:45 IST" duration-ms="246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC007_checkStrikeThrough -->
       <class name="testCases.TC004_DPPagecheck">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_DPPagecheck@34b7ac2f]" started-at="2026-04-06T14:31:43 IST" name="setup" finished-at="2026-04-06T14:31:44 IST" duration-ms="1311" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_DPPagecheck@4b0b0854]" started-at="2026-05-09T19:21:37 IST" name="setup" finished-at="2026-05-09T19:21:42 IST" duration-ms="4714" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -305,17 +389,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC004_DPPagecheck()[pri:0, instance:testCases.TC004_DPPagecheck@34b7ac2f]" started-at="2026-04-06T14:31:44 IST" name="TC004_DPPagecheck" finished-at="2026-04-06T14:31:46 IST" duration-ms="1774" status="PASS">
+        <test-method signature="TC004_DPPagecheck()[pri:0, instance:testCases.TC004_DPPagecheck@4b0b0854]" started-at="2026-05-09T19:21:42 IST" name="TC004_DPPagecheck" finished-at="2026-05-09T19:21:47 IST" duration-ms="5065" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC004_DPPagecheck -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_DPPagecheck@34b7ac2f]" started-at="2026-04-06T14:31:46 IST" name="tearDown" finished-at="2026-04-06T14:31:46 IST" duration-ms="104" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_DPPagecheck@4b0b0854]" started-at="2026-05-09T19:21:47 IST" name="tearDown" finished-at="2026-05-09T19:21:47 IST" duration-ms="249" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC004_DPPagecheck -->
       <class name="testCases.TC005_addToCarttest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC005_addToCarttest@e056f20]" started-at="2026-04-06T14:31:46 IST" name="setup" finished-at="2026-04-06T14:31:48 IST" duration-ms="1188" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC005_addToCarttest@19bb07ed]" started-at="2026-05-09T19:21:47 IST" name="setup" finished-at="2026-05-09T19:21:52 IST" duration-ms="4425" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -331,17 +415,90 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC005_addToCarttest()[pri:0, instance:testCases.TC005_addToCarttest@e056f20]" started-at="2026-04-06T14:31:48 IST" name="TC005_addToCarttest" finished-at="2026-04-06T14:31:49 IST" duration-ms="1525" status="PASS">
+        <test-method signature="TC005_addToCarttest()[pri:0, instance:testCases.TC005_addToCarttest@19bb07ed]" started-at="2026-05-09T19:21:52 IST" name="TC005_addToCarttest" finished-at="2026-05-09T19:24:57 IST" duration-ms="184722" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[java.util.concurrent.TimeoutException
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [547a0883436264627fbe6f64eb8e3f0f, clickElement {id=f.FC3F62C6C5E514FE93C6C4C43BA59003.d.A5A1653CC3DED1B635DF6DA37DEA2DDF.e.162}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.55, chrome: {chromedriverVersion: 147.0.7727.56 (b28eac7a1a97..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36089}, goog:processID: 2513, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.5:4444/sessio..., se:cdpVersion: 147.0.7727.55, se:containerName: bc94a1bd8592, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on linux (547a0883436264627fbe6f64eb8e3f0f)] -> xpath: //a[@title='Shopping Cart']//i[@class='fa fa-shopping-cart']]
+Session ID: 547a0883436264627fbe6f64eb8e3f0f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [547a0883436264627fbe6f64eb8e3f0f, clickElement {id=f.FC3F62C6C5E514FE93C6C4C43BA59003.d.A5A1653CC3DED1B635DF6DA37DEA2DDF.e.162}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.55, chrome: {chromedriverVersion: 147.0.7727.56 (b28eac7a1a97..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36089}, goog:processID: 2513, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.5:4444/sessio..., se:cdpVersion: 147.0.7727.55, se:containerName: bc94a1bd8592, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on linux (547a0883436264627fbe6f64eb8e3f0f)] -> xpath: //a[@title='Shopping Cart']//i[@class='fa fa-shopping-cart']]
+Session ID: 547a0883436264627fbe6f64eb8e3f0f
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:429)
+at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:220)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source)
+at pageObjects.HomePage.clickCart(HomePage.java:80)
+at testCases.TC005_addToCarttest.TC005_addToCarttest(TC005_addToCarttest.java:41)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2828)
+at java.base/java.util.concurrent.DelayScheduler$ScheduledForkJoinTask.compute(DelayScheduler.java:510)
+at java.base/java.util.concurrent.ForkJoinTask$InterruptibleTask.exec(ForkJoinTask.java:1659)
+at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511)
+at java.base/java.util.concurrent.DelayScheduler.loop(DelayScheduler.java:325)
+at java.base/java.util.concurrent.DelayScheduler.run(DelayScheduler.java:221)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC005_addToCarttest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC005_addToCarttest@e056f20]" started-at="2026-04-06T14:31:49 IST" name="tearDown" finished-at="2026-04-06T14:31:49 IST" duration-ms="128" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC005_addToCarttest@19bb07ed]" started-at="2026-05-09T19:25:25 IST" name="tearDown" finished-at="2026-05-09T19:25:26 IST" duration-ms="253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC005_addToCarttest -->
       <class name="testCases.TC009_sortSRP">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC009_sortSRP@353d0772]" started-at="2026-04-06T14:31:58 IST" name="setup" finished-at="2026-04-06T14:32:00 IST" duration-ms="1257" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC009_sortSRP@67a20f67]" started-at="2026-05-09T19:25:53 IST" name="setup" finished-at="2026-05-09T19:25:57 IST" duration-ms="4469" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -357,11 +514,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC009_sortSRP()[pri:0, instance:testCases.TC009_sortSRP@353d0772]" started-at="2026-04-06T14:32:00 IST" name="TC009_sortSRP" finished-at="2026-04-06T14:32:01 IST" duration-ms="1755" status="PASS">
+        <test-method signature="TC009_sortSRP()[pri:0, instance:testCases.TC009_sortSRP@67a20f67]" started-at="2026-05-09T19:25:57 IST" name="TC009_sortSRP" finished-at="2026-05-09T19:26:03 IST" duration-ms="6042" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC009_sortSRP -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC009_sortSRP@353d0772]" started-at="2026-04-06T14:32:01 IST" name="tearDown" finished-at="2026-04-06T14:32:02 IST" duration-ms="104" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC009_sortSRP@67a20f67]" started-at="2026-05-09T19:26:03 IST" name="tearDown" finished-at="2026-05-09T19:26:03 IST" duration-ms="251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
