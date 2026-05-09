@@ -30,7 +30,7 @@ public class ExtentReportManager implements ITestListener{
         String timeStamp=new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
 
         repName="Extent-Report"+timeStamp+".html";
-        sparkReporter= new ExtentSparkReporter(".\\reports\\"+repName);
+        sparkReporter= new ExtentSparkReporter("./reports/"+repName);
 
         sparkReporter.config().setDocumentTitle("OpenCart Automaition Report");
         sparkReporter.config().setReportName("Opencart functional Testing");
@@ -88,7 +88,7 @@ public class ExtentReportManager implements ITestListener{
     public void onFinish(ITestContext context) {
         extent.flush();
 
-        String pathOfExtentReport = System.getProperty("user.dir")+"\\reports\\"+repName;
+        String pathOfExtentReport = System.getProperty("user.dir")+"/reports/"+repName;
         File extentReport= new File(pathOfExtentReport);
 
         try {

@@ -69,7 +69,7 @@ public void clickLogin()
 }
 public void inputSearchText(String input)
 {
-    lnkSearchTxtboxElement.sendKeys(input);;
+    lnkSearchTxtboxElement.sendKeys(input);
 }
 public void clickSearch()
 {

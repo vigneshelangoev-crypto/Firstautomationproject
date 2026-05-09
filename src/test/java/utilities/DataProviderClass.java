@@ -7,7 +7,7 @@ public class DataProviderClass {
     @DataProvider(name="LoginData")
     public String [][] xslxData ()throws IOException 
     {
-        String path=".\\testData\\logins.xlsx";
+        String path="./testData/logins.xlsx";
 
         excelUtility xlutil= new excelUtility(path);
         int totalrow= xlutil.getRowCount("Sheet1"); //5
