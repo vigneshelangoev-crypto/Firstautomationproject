@@ -10,6 +10,7 @@ public class TC007_checkStrikeThrough extends testBase.BaseClass {
     @Test(groups={"Master","Sanity","regression"})
     public void checkStrikeThrough()
     {
+        logger.info("****Starting TC007");
         HomePage hp=new HomePage(driver);
         hp.clickSpecials();
         //Validation

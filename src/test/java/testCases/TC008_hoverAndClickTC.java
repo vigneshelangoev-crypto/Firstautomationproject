@@ -9,6 +9,7 @@ public class TC008_hoverAndClickTC extends testBase.BaseClass{
     @Test(groups={"regression","Sanity","Master"})
     public void TC008_hoverAndClickTC()
     {
+        logger.info("****Starting TC008");
         HomePage hp=new HomePage(driver);
         hp.hoverDesktop();
         hp.clickMac();

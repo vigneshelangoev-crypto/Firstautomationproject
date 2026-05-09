@@ -11,6 +11,7 @@ public class TC009_sortSRP extends testBase.BaseClass{
 @Test(groups={"Master","Sanity"})
     public void TC009_sortSRP ()
     {
+        logger.info("****Starting TC009");
         HomePage hp=new HomePage(driver);
         hp.inputSearchText("mac");
         hp.clickSearch();

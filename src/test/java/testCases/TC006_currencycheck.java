@@ -10,6 +10,7 @@ public class TC006_currencycheck extends testBase.BaseClass {
     @Test(groups={"Sanity","Master"})
     public void TC006_currencycheck() throws Exception
     {
+        logger.info("****Starting TC006");
         HomePage hp=new HomePage(driver);
         hp.clickCurrency();
         Thread.sleep(3000);

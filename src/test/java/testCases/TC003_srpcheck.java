@@ -12,7 +12,9 @@ public class TC003_srpcheck extends testBase.BaseClass{
     String input= "macbook";
     @Test(groups={"Master","Sanity"})
     public void TC003_srpcheck()
+   
     {
+        logger.info("****Starting TC003");
         HomePage hp=new HomePage(driver);
         hp.inputSearchText(input);
         hp.clickSearch();

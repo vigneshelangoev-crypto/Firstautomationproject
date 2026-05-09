@@ -14,6 +14,7 @@ public class TC004_DPPagecheck extends testBase.BaseClass{
     String ASINmatch= "macbook air";
     @Test(groups="Master")
     public void TC004_DPPagecheck() throws InterruptedException{
+        logger.info("****Starting TC004");
         HomePage hp=new HomePage(driver);
         hp.inputSearchText(input);
         hp.clickSearch();

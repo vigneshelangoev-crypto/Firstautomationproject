@@ -14,6 +14,7 @@ public class TC002_loginTest extends testBase.BaseClass{
 @Test(dataProvider="LoginData", dataProviderClass=DataProviderClass.class, groups={"Sanity","Master"})
 public void verifyLogin(String email, String pwd, String expres) throws InterruptedException
 {
+    logger.info("****Starting TC002****");
    try{
     HomePage hp=new HomePage(driver);
     Thread.sleep(1000);

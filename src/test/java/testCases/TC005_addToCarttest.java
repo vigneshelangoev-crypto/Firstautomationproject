@@ -16,6 +16,7 @@ public class TC005_addToCarttest extends testBase.BaseClass {
     String ASINmatch= "macbook air";
     @Test(groups={"regression","Master"})
     public void TC005_addToCarttest() throws InterruptedException{
+        logger.info("****Starting TC005");
         HomePage hp=new HomePage(driver);
         hp.inputSearchText(input);
         hp.clickSearch();
