@@ -38,7 +38,7 @@ public class BaseClass {
     @Parameters({"browser","headless"})
     public void setup(String br,String hl) throws IOException
     {
-        FileReader file= new FileReader(".\\src\\test\\resources\\config.properties");
+        FileReader file = new FileReader(System.getProperty("user.dir")+ "/src/test/resources/config.properties");
         p = new Properties();
         p.load(file);
         logger=LogManager.getLogger(this.getClass());
