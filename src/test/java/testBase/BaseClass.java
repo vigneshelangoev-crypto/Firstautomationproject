@@ -13,7 +13,6 @@ import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
-import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -22,7 +21,6 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -48,7 +46,7 @@ public class BaseClass {
 
         if(p.getProperty("execution_evn").equalsIgnoreCase("remote"))
         {
-        String huburl="http://13.51.220.79:4444/wd/hub";
+        String huburl="http://13.51.220.79:4444";
         switch(br.toLowerCase())
         {
         case "chrome": 
@@ -69,7 +67,7 @@ public class BaseClass {
         case  "firefox": FirefoxOptions fOptions=new FirefoxOptions();
         if (isHeadless)
         {
-            fOptions.addArguments("--headless=new");
+            fOptions.addArguments("--headless");
         }
         driver = new RemoteWebDriver(new URL(huburl), fOptions); break;
         default : System.out.println("Invalid Browser"); return;
@@ -108,7 +106,7 @@ public class BaseClass {
         driver.manage().deleteAllCookies();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get(p.getProperty("URL1"));
-        driver.manage().window().maximize();
+        driver.manage().window().setSize(new org.openqa.selenium.Dimension(1920,1080));
     }
     @AfterClass(alwaysRun = true)
         public void tearDown()
@@ -132,12 +130,17 @@ public class BaseClass {
             return generatedRandomAlnumString;
         }
         public String captureScreen(String tname) throws IOException {
+
+        if(driver == null)
+        {
+            return "";
+        }
             String timestamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 
             TakesScreenshot takesScreenshot= (TakesScreenshot) driver;
             File sourceFile= takesScreenshot.getScreenshotAs(OutputType.FILE);
 
-            String targetFilePath=System.getProperty("user.dir")+"\\screenshots\\"+tname+"_"+timestamp;
+            String targetFilePath=System.getProperty("user.dir")+"/screenshots/"+tname+"_"+timestamp+".png";
             File targetFile=new File(targetFilePath);
 
             sourceFile.renameTo(targetFile);
